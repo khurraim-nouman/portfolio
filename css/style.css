@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+html,body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+
+header {
+    width: 100%;
+    height: auto;
+    background: url(https://images.unsplash.com/photo-1510174210589-ed6667381173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*padding-top: 10%;*/
+    padding-bottom: 12%;
+}
+
+.msg-btn {
+    background: #10c9c3;
+    color: #fff;
+    padding: 15px 10px;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 13px;
+    border: none;
+}
+
+
+header ul {
+    padding-bottom: 12%;
+}
+
+header ul li {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+header ul li a {
+    color: black;
+}
+
+header ul li a:hover {
+    color: #10c9c3;
+    text-decoration: none;
+}
+
+
+header ul {
+    list-style: none;
+}
+
+.d-block,p {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+#services {
+    background: #f3f3f3;
+    height: auto;
+    width: 100%;
+}
+
+#services h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+#testimonials {
+    width: 100%;
+    height: auto;
+    background: rgb(85, 230, 230);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #fff;
+}
+
+#aboutus p{
+    color: gray;
+    font-size: 18px;
+    padding: 10px 150px;
+}
+
+#aboutus img {
+    width: 250px;
+    height: 150px;
+}
+
+/***************************************/
+.title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 1
+}
+
+.content-image {
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+
+
+
+#contact {
+    background: #f5f5f5;
+}
+
+#contact input {border: none;}
+#contact textarea {border: none;}
+
+#skills {
+    background: url(https://image.freepik.com/free-photo/diary-book-pencil-white-desk-background-with-copy-space_70287-3679.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***********************************************/
+
+#acheivements {
+    background: rgb(54, 255, 228);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#acheivements p {
+    font-size: 14px;
+}
+
+#acheivements .row {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+
+#amellawoods {
+    width: 100%;
+    height: 300px;
+    background: url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#amellawoods h1 {
+    padding-top: 100px;
+}
+
+#work-process iframe {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+
+
+#project button {
+    background: cyan;
+    border: none;
+    color: #fff;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/*
+ *
+ *  Footer styling begins from here
+ * 
+ */
+
+footer {
+    background: #141414;
+    color: #ddd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+footer p {
+    font-weight: 400;
+}

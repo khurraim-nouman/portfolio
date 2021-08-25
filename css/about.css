@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+html,body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-light {
+    background: white !important;
+}
+
+.nav-item a {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.nav-item a:hover {
+    color: skyblue;
+    text-decoration: none;
+}
+
+
+.d-block,p {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#acheivements {
+    background: rgb(54, 255, 228);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#acheivements p {
+    font-size: 14px;
+}
+
+
+#amellawoods {
+    width: 100%;
+    height: 300px;
+    background: url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#amellawoods h1 {
+    padding-top: 100px;
+}
+
+
+
+#project button {
+    background: cyan;
+    border: none;
+    color: #fff;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/*
+ *
+ *  Footer styling begins from here
+ * 
+ */
+
+footer {
+    background: #141414;
+    color: #ddd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+footer p {
+    font-weight: 400;
+}
