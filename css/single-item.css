@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+html,body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-light {
+    background: white !important;
+}
+
+.nav-item a {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.nav-item a:hover {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.d-block,p {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+
+
+#item {
+   background: #f5f5f5;
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+}
+
+/*
+ *
+ *  Footer styling begins from here
+ * 
+ */
+
+ footer {
+    background: #141414;
+    color: #ddd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+footer p {
+    font-weight: 400;
+}

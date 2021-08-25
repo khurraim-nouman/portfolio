@@ -32,6 +32,8 @@ html,body {
     margin-right: auto;
 }
 
+
+
 #acheivements {
     background: rgb(54, 255, 228);
     color: #fff;
@@ -40,6 +42,23 @@ html,body {
 
 #acheivements p {
     font-size: 14px;
+}
+
+#acheivements .row {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+
+#acheivements p {
+    font-size: 14px;
+}
+
+#aboutme {
+    background: url(https://cdn.pixabay.com/photo/2017/10/15/14/18/poster-mockup-2853861_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
