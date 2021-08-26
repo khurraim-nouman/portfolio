@@ -10,6 +10,12 @@
 
     <link rel="stylesheet" href="css/font-awesome/all.css" >
 
+    <!--Animate CSS CDN-->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"
+   />
+
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/about.css">
 
@@ -51,8 +57,8 @@
         <!--Amella Wood Begins here-->
 
         <section id="amellawoods">
-            <h1 class="text-center font-weight-bold">Amella Woods</h1>
-            <p class="text-center px-5">I am a Graphics & Web Designer based in New York, specializing in User Interface Design
+            <h1 class="text-center font-weight-bold wow slideInUp" data-wow-duration="2s">Amella Woods</h1>
+            <p class="text-center px-5 wow slideInDown">I am a Graphics & Web Designer based in New York, specializing in User Interface Design
                 and Development
             </p>
         </section>
@@ -65,7 +71,7 @@
             <div class="container">
                 <div class="row pt-5 pb-5">
 
-                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center">
+                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center wow slideInLeft">
         
                     <i class="fa fa-4x fa-suitcase"></i>
                     <div class="pl-3">
@@ -78,15 +84,15 @@
 
 
 
-                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center">
+                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center wow slideInUp">
                     <i class="fa fa-4x fa-clock-o"></i>
                     <div class="pl-3">
                       <h5 class="font-weight-bold">1465</h5>
-                      <p class="wow bounceInUp">Working Hours</p>
+                      <p >Working Hours</p>
                     </div>
                   </div>
 
-                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center">
+                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center wow slideInDown">
                     <i class="fa fa-4x fa-star-o"></i>
                     <div class="pl-3">
                       <h5 class="font-weight-bold">612</h5>
@@ -95,7 +101,7 @@
                   </div>
 
 
-                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center">
+                  <div class="col-sm-3 col-md-3 col-lg-3 col-12 d-flex center wow slideInRight">
                     <i class="fa fa-4x fa-heart-o"></i>
                     <div class="pl-3">
                       <h5 class="font-weight-bold">735</h5>
@@ -113,7 +119,7 @@
 
 
         <!-- About Me Section -->
-        <section id="aboutme">
+        <section id="aboutme" class="wow slideInLeft">
             <div class="container">
               <div class="row pt-5 pb-5">
                 <div class="col-sm-6 col-md-6 col-lg-6 col-12"></div>
@@ -140,7 +146,7 @@
 
         <!--Need a Project Begins Here-->
 
-        <section id="project">
+        <section id="project" class="wow slideInRight">
           <div class="container pt-5 pb-5">
             <h2 class="text-center font-weight-bold pt-5">Need a Project ? </h2>
             <p class="text-center mb-4">Let us know what you are looking for in an agency. We'll take a look and see if this 
@@ -212,6 +218,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/ad4fc39853.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+   $(function(){
+  new WOW().init(); 
+});
+    </script>
    
    
   </body>

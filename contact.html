@@ -5,6 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+       <!--Animate CSS CDN-->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"
+   />
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -51,7 +58,7 @@
 
         <div class="container mb-5" id="contact">
             <div class="row mt-5">
-                <div class="col-sm-6 col-md-6 col-lg-6 col-12">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-12 wow slideInRight">
                     <h2 class="font-weight-bold mb-4">Contact Info :</h2>
                     <p style="font-size: 17px; color: gray;" class="mb-4">To give give beginning divide, cattle. Give moving 
                         won't, there the abundantly she'd she'd brought air 
@@ -81,7 +88,7 @@
 
                 </div>
 
-                <div class="col-sm-6 col-md-6 col-lg-6 col-12">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-12 wow slideInLeft">
                     <form>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-12">
@@ -116,7 +123,7 @@
 
         <!--Map Starts Here-->
 
-        <div class="container">
+        <div class="container wow bounceIn">
           <div class="mapouter mb-5">
             <div class="gmap_canvas">
               <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
@@ -182,6 +189,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/wow.js"></script>
+    <script>
+   $(function(){
+  new WOW().init(); 
+});
+    </script>
    
   </body>
 </html>
